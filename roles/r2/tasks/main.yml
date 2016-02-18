@@ -1,5 +1,4 @@
 ---
-- debug: var=foo
+- debug: var=setfoo
 
-- name: "echo foo"
-  command: echo {{ foo }}
+- debug: var=registerfoo

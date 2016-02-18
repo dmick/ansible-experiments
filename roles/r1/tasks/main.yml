@@ -1,3 +1,7 @@
 ---
 - name: "set foo"
-  set_fact: foo='bar'
+  set_fact: setfoo='bar'
+
+- name: "register foo"
+  command: "echo bar"
+  register: registerfoo
