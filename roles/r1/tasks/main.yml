@@ -1,0 +1,3 @@
+---
+- name: "set foo"
+  set_fact: foo='bar'

@@ -1,0 +1,5 @@
+---
+- debug: var=foo
+
+- name: "echo foo"
+  command: echo {{ foo }}
