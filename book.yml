@@ -3,3 +3,7 @@
   roles:
    - r1
    - r2
+
+- hosts: all
+  roles: 
+   - r2
